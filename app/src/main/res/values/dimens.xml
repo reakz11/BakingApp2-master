@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="title_size">25sp</dimen>
+    <dimen name="step_text_size">18sp</dimen>
+
+    <dimen name="paragraph_size">16sp</dimen>
+
+    <dimen name="button_text_size">18sp</dimen>
+
+    <dimen name="padding_button">5dp</dimen>
+    <dimen name="width_button">300dp</dimen>
+    <dimen name="paragraph_size_widget">10sp</dimen>
+
+    <dimen name="title_size_widget">16sp</dimen>
+
+
+    <dimen name="alert_icon_size">80dp</dimen>
+
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

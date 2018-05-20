@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mButtonStyle">
+        <item name="android:textAppearance">@style/TextButtons</item>
+        <item name="android:background">#F15F1E</item>
+        <item name="android:layout_width">@dimen/width_button</item>
+
+    </style>
+
+    <style name="TextTitles" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/title_size</item>
+    </style>
+
+    <style name="TextSteps" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/step_text_size</item>
+    </style>
+
+    <style name="TextButtons" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="TextParagraphs" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/paragraph_size</item>
+    </style>
+
+    <style name="TextWidgetIngredients" parent="TextParagraphs">
+        <item name="android:textSize">@dimen/paragraph_size_widget</item>
+    </style>
+
+    <style name="TitleWidgetIngredients" parent="TextTitles">
+        <item name="android:textSize">@dimen/title_size_widget</item>
+    </style>
+
+</resources>
